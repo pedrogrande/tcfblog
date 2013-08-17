@@ -13,6 +13,12 @@ gem 'cancan'
 gem 'devise'
 gem 'rolify'
 gem 'simple_form'
+gem 'turbolinks'
+gem "friendly_id"
+gem 'will_paginate'
+gem 'truncate_html'
+gem 'acts-as-taggable-on'
+gem 'impressionist'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :rbx]
