@@ -13,6 +13,7 @@
 
 ActiveRecord::Schema.define(:version => 20130817040203) do
 
+
   create_table "roles", :force => true do |t|
     t.string   "name"
     t.integer  "resource_id"
