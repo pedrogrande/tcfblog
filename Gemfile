@@ -37,3 +37,25 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem 'bootstrap-sass'
+gem 'cancan'
+gem 'devise'
+gem 'rolify'
+gem 'simple_form'
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller', :platforms=>[:mri_19, :rbx]
+  gem 'hub', :require=>nil
+  gem 'quiet_assets'
+end
+
+group :development, :test do
+  gem 'thin'
+end
+
+group :production do
+  gem 'unicorn'
+end
+
